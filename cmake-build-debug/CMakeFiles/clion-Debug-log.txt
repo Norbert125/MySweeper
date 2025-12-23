@@ -1,0 +1,5 @@
+"E:\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S E:\MySweeper -B E:\MySweeper\cmake-build-debug
+-- Found SFML 2.6.1 in E:/MySweeper/SFML-2.6.1/lib/cmake/SFML
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: E:/MySweeper/cmake-build-debug

@@ -1,0 +1,14 @@
+# ninja log v6
+11	723	7882101386026091	CMakeFiles/MySweeper.dir/main.cpp.obj	eb0f94b63bac8e9
+4	599	7882140789162166	CMakeFiles/Minesweeper.dir/Board.cpp.obj	cbab0cfc7901e840
+1	275	7882173265821079	build.ninja	86660572bab1ef03
+27	894	7882101251432985	CMakeFiles/MySweeper.dir/Board.cpp.obj	48f7d6cb18bf6e65
+932	1264	7882149777923261	Minesweeper.exe	62ee35d09623e992
+4	918	7882149768638483	CMakeFiles/Minesweeper.dir/main.cpp.obj	bb4bb6cc404f716c
+5	1042	7882173438385464	CMakeFiles/Minesweeper.dir/main.cpp.obj	5a1ce271476e93df
+14	1100	7882173438475494	CMakeFiles/Minesweeper.dir/Board.cpp.obj	afae88fab2035137
+23	1578	7882173438555508	CMakeFiles/Minesweeper.dir/resources.rc.obj	552e5c988f846fe1
+1578	1768	7882173454101855	Minesweeper.exe	e7dec0f11de5f11f
+13	642	7882175851518221	CMakeFiles/Minesweeper.dir/Board.cpp.obj	afae88fab2035137
+4	839	7882175851428202	CMakeFiles/Minesweeper.dir/main.cpp.obj	5a1ce271476e93df
+839	989	7882175859771171	Minesweeper.exe	e7dec0f11de5f11f
