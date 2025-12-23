@@ -82,8 +82,8 @@ int main() {
                     if (!inputString.empty()) {
                         int val = stoi(inputString);
 
-                        // Enforce Min 5 and Max 25 to keep visuals clear
-                        if (val < 5) rows = 5;
+                        // Enforce Min 10 and Max 25 to keep visuals clear
+                        if (val < 10) rows = 10;
                         else if (val > 25) rows = 25;
                         else rows = val;
 
@@ -155,7 +155,7 @@ int main() {
             titleTxt.setPosition(centerX, centerY - 150);
             window.draw(titleTxt);
 
-            Text menuTxt("ENTER BOARD SIZE (5 - 25):", font, 28);
+            Text menuTxt("ENTER BOARD SIZE (10 - 25):", font, 28);
             FloatRect menuBounds = menuTxt.getLocalBounds();
             menuTxt.setOrigin(menuBounds.left + menuBounds.width / 2.0f, menuBounds.top + menuBounds.height / 2.0f);
             menuTxt.setPosition(centerX, centerY - 50);
