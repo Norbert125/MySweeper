@@ -58,6 +58,16 @@ void Board::hints() {
     }
 }
 
+void Board::toggleFlag(int r, int c) {
+    if (mask[r][c] == 0) {
+        mask[r][c] = 2;
+        flagsPlaced++;
+    } else if (mask[r][c] == 2) {
+        mask[r][c] = 0;
+        flagsPlaced--;
+    }
+}
+
 void Board::reveal(const int r, const int c) {
     if (r < 0 || r >= rows || c < 0 || c >= coll || mask[r][c] == 1 || mask[r][c] == 2) return;
     mask[r][c] = 1; // Mark as revealed
@@ -71,11 +81,6 @@ void Board::reveal(const int r, const int c) {
             for (int j = -1; j <= 1; j++) reveal(r + i, c + j);
         }
     }
-}
-
-void Board::toggleFlag(const int r, const int c) {
-    if (mask[r][c] == 0) mask[r][c] = 2;
-    else if (mask[r][c] == 2) mask[r][c] = 0;
 }
 
 void Board::revealAllBombs() {

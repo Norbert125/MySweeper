@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 18,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 26,
+				"line" : 27,
 				"parent" : 0
 			}
 		]
@@ -108,6 +108,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "E:\\MySweeper\\SFML-2.6.1\\lib\\libsfml-window-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "E:\\MySweeper\\SFML-2.6.1\\lib\\libsfml-audio-d.a",
 				"role" : "libraries"
 			},
 			{

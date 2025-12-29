@@ -13,6 +13,7 @@ private:
     vector<vector<int>> mask;
     int bombs{}, rows{}, coll{};
     bool gameOver = false;
+    int flagsPlaced = 0;
 public:
     Board() = default;
 
@@ -36,6 +37,8 @@ public:
     [[nodiscard]] bool checkWin() const;
 
     void chord(int r, int c);
+
+    [[nodiscard]] int getFlagsPlaced() const { return flagsPlaced; }
 
     [[nodiscard]] const vector<vector<int>> &getGameBoard() const;
 

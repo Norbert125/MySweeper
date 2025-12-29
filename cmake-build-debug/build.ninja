@@ -77,9 +77,9 @@ build CMakeFiles/Minesweeper.dir/resources.rc.obj: RC_COMPILER__Minesweeper_unsc
 #############################################
 # Link the executable Minesweeper.exe
 
-build Minesweeper.exe: CXX_EXECUTABLE_LINKER__Minesweeper_Debug CMakeFiles/Minesweeper.dir/main.cpp.obj CMakeFiles/Minesweeper.dir/Board.cpp.obj CMakeFiles/Minesweeper.dir/resources.rc.obj | E$:/MySweeper/SFML-2.6.1/lib/libsfml-graphics-d.a E$:/MySweeper/SFML-2.6.1/lib/libsfml-window-d.a E$:/MySweeper/SFML-2.6.1/lib/libsfml-system-d.a
+build Minesweeper.exe: CXX_EXECUTABLE_LINKER__Minesweeper_Debug CMakeFiles/Minesweeper.dir/main.cpp.obj CMakeFiles/Minesweeper.dir/Board.cpp.obj CMakeFiles/Minesweeper.dir/resources.rc.obj | E$:/MySweeper/SFML-2.6.1/lib/libsfml-graphics-d.a E$:/MySweeper/SFML-2.6.1/lib/libsfml-window-d.a E$:/MySweeper/SFML-2.6.1/lib/libsfml-audio-d.a E$:/MySweeper/SFML-2.6.1/lib/libsfml-system-d.a
   FLAGS = -g
-  LINK_LIBRARIES = E:/MySweeper/SFML-2.6.1/lib/libsfml-graphics-d.a  E:/MySweeper/SFML-2.6.1/lib/libsfml-window-d.a  E:/MySweeper/SFML-2.6.1/lib/libsfml-system-d.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = E:/MySweeper/SFML-2.6.1/lib/libsfml-graphics-d.a  E:/MySweeper/SFML-2.6.1/lib/libsfml-window-d.a  E:/MySweeper/SFML-2.6.1/lib/libsfml-audio-d.a  E:/MySweeper/SFML-2.6.1/lib/libsfml-system-d.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Minesweeper.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
