@@ -99,7 +99,7 @@ int main() {
                     if (!inputString.empty()) {
                         int val = stoi(inputString);
                         if (val < 10) rows = 10;
-                        else if (val > 25) rows = 25;
+                        else if (val > 30) rows = 30;
                         else rows = val;
 
                         cols = rows;
@@ -162,7 +162,7 @@ int main() {
             float centerX = (float) window.getSize().x / 2.0f;
             float centerY = (float) window.getSize().y / 2.0f;
 
-            Text titleTxt("MINESWEEPER PRO", font, 50);
+            Text titleTxt("MySWEEPER!", font, 50);
             titleTxt.setStyle(Text::Bold);
             titleTxt.setFillColor(Color::Cyan);
             FloatRect titleBounds = titleTxt.getLocalBounds();
@@ -171,7 +171,7 @@ int main() {
             titleTxt.setPosition(centerX, centerY - 150);
             window.draw(titleTxt);
 
-            Text menuTxt("ENTER BOARD SIZE (10 - 25):", font, 28);
+            Text menuTxt("ENTER BOARD SIZE (10 - 30):", font, 28);
             FloatRect menuBounds = menuTxt.getLocalBounds();
             menuTxt.setOrigin(menuBounds.left + menuBounds.width / 2.0f, menuBounds.top + menuBounds.height / 2.0f);
             menuTxt.setPosition(centerX, centerY - 50);
